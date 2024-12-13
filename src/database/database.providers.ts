@@ -14,7 +14,7 @@ export const databaseProvider = [
         password: config.get('PASSWORD') || 'prueba',  
         database: config.get('DATABASE'),
         entities:[
-          __dirname + '/**/*.entity{.ts,.js}',
+          __dirname + '/../**/*.entity{.ts,.js}',
         ]
       });  
 
